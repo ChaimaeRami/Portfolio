@@ -16,7 +16,7 @@ export default function About() {
           className="w-full flex justify-center"
         >
           <img 
-            src="/images/cafe2.jpeg" 
+            src="/Portfolio/images/cafe2.jpeg" 
             alt="À propos de Chaimae" 
             className="w-full max-w-md rounded-3xl shadow-xl object-cover"
           />

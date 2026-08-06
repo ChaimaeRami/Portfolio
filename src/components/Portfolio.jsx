@@ -43,7 +43,7 @@ export default function Portfolio() {
           >
              <div className="relative w-full flex-grow min-h-[300px] md:min-h-[450px]">
                <Image 
-                  src="/images/portfinal1.jpeg" 
+                  src="/Portfolio/images/portfinal1.jpeg" 
                   fill 
                   className="object-cover" 
                   alt="Création de Contenu" 
@@ -65,7 +65,7 @@ export default function Portfolio() {
           >
              <div className="relative w-full h-48 md:h-56">
                <Image 
-                  src="/images/portfinal2.jpeg" 
+                  src="/Portfolio/images/portfinal2.jpeg" 
                   fill 
                   className="object-cover" 
                   alt="Photographie Produit" 
@@ -87,7 +87,7 @@ export default function Portfolio() {
           >
              <div className="relative w-full h-48 md:h-56">
                <Image 
-                  src="/images/insfinal3.jpeg" 
+                  src="/Portfolio/images/insfinal3.jpeg" 
                   fill 
                   className="object-cover" 
                   alt="Performances & Viralité" 
