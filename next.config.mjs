@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // هذا السطر ضروري جداً لتصدير صفحات static
+  output: 'export',
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio/',
+  images: {
+    unoptimized: true, // ضروري لمشاريع Next.js المصدّرة كـ Static
+  },
 };
 
 export default nextConfig;
-
